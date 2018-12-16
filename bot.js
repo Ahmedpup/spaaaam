@@ -181,7 +181,7 @@ if (command == "embed") {
 });
 
 client2.on('message', message => {
-	 var prefix = "1-";
+	 var prefix = "2-";
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
@@ -213,7 +213,7 @@ if (command == "embed") {
 });
 
 client3.on('message', message => {
-	 var prefix = "1-";
+	 var prefix = "3-";
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
@@ -245,7 +245,7 @@ if (command == "embed") {
 });
 
 client4.on('message', message => {
-	 var prefix = "1-";
+	 var prefix = "4-";
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
@@ -277,7 +277,7 @@ if (command == "embed") {
 });
 
 client5.on('message', message => {
-	 var prefix = "1-";
+	 var prefix = "5-";
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
